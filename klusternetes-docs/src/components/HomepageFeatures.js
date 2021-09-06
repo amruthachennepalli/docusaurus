@@ -8,9 +8,9 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-         * Typescript/Javascript SDK (coming soon..)
-         * Use with Kubectl, helm, ...
-         * Up and running in few seconds..
+        Typescript/Javascript SDK (coming soon..)
+        Use with Kubectl, helm, ...
+        Up and running in few seconds..
       </>
     ),
   },
@@ -19,8 +19,8 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-         * Free for hobby and Paid plans starting from 1$ USD per 1GB memory / 0.5 vcpu
-         * Simple & Easy to understand billing
+        Free for hobby and Paid plans starting from 1$ USD per 1GB memory / 0.5 vcpu
+        Simple & Easy to understand billing
       </>
     ),
   },
@@ -29,15 +29,15 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-         * Your latest k8s version up and running in few seconds
-         * Host it on our domains with free ssl or use your own domain (coming soon)
-         * Install add-ons from easy to use UI
+         Your latest k8s version up and running in few seconds
+         Host it on our domains with free ssl or use your own domain (coming soon)
+         Install add-ons from easy to use UI
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
