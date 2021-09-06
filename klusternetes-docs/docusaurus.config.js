@@ -8,9 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   // tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  // onBrokenLinks: 'throw',
-  // onBrokenMarkdownLinks: 'warn',
-  // favicon: 'img/favicon.ico',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
   organizationName: 'zs-amrutha', // Usually your GitHub org/user name.
   projectName: 'klusternetes', // Usually your repo name.
 
