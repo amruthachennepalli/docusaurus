@@ -4,32 +4,34 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Use it inside your CI/CD pipeline',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+         * Typescript/Javascript SDK (coming soon..)
+         * Use with Kubectl, helm, ...
+         * Up and running in few seconds..
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Low-cost clusters for your testing',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+         * Free for hobby and Paid plans starting from 1$ USD per 1GB memory / 0.5 vcpu
+         * Simple & Easy to understand billing
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Create your hobby clusters for free',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+         * Your latest k8s version up and running in few seconds
+         * Host it on our domains with free ssl or use your own domain (coming soon)
+         * Install add-ons from easy to use UI
       </>
     ),
   },
