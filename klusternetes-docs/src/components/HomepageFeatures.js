@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Use it inside your CI/CD pipeline',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    // Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Typescript/Javascript SDK (coming soon..)
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Low-cost clusters for your testing',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    // Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Free for hobby and Paid plans starting from 1$ USD per 1GB memory / 0.5 vcpu
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Create your hobby clusters for free',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    // Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
          Your latest k8s version up and running in few seconds
