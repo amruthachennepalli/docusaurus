@@ -53,11 +53,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://klusternetes.com/signin?re=/home',
-            label: 'Get Started',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://klusternetes.com/signin?re=/home',
+          //   label: 'Get Started',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
