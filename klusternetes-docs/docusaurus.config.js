@@ -52,12 +52,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Docs',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/zs-amrutha/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://klusternetes.com/signin?re=/home',
+            label: 'Get Started',
+            position: 'right',
+          },
         ],
       },
       footer: {
