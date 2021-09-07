@@ -43,8 +43,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       navbar: {
         title: 'Klusternetes',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Klusternetes Logo',
+          src: 'img/default.png',
         },
         items: [
           {
