@@ -10,7 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  default: 'img/default.png',
   organizationName: 'zs-amrutha', // Usually your GitHub org/user name.
   projectName: 'klusternetes', // Usually your repo name.
 
